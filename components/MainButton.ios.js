@@ -5,11 +5,11 @@ import Colors from '../constants/colors';
 
 function MainButton({onPress, children}) {
   return (
-    <TouchableOpacity activeOpacity={0.6} onPress={() => onPress()}>
-      <View style={styles.button}>
-        <Text style={styles.buttonText}>{children}</Text>
-      </View>
-    </TouchableOpacity>
+      <TouchableOpacity activeOpacity={0.6} onPress={() => onPress()}>
+        <View style={styles.button}>
+          <Text style={styles.buttonText}>{children}</Text>
+        </View>
+      </TouchableOpacity>
   );
 }
 
